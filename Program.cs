@@ -49,17 +49,27 @@ double number03 ;
 
 
 // Conditional Statements
-int cash;
+// int cash;
 
-Console.WriteLine("Buy a Movie Ticket. Price is $5.\nDeposit your Amount:");
-cash = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Buy a Movie Ticket. Price is $5.\nDeposit your Amount:");
+// cash = Convert.ToInt32(Console.ReadLine());
 
-if(cash<5){
-    Console.WriteLine("The Deposit is not enough.");
-}
-else if(cash == 5){
-    Console.WriteLine("Here's Your Ticket!");
-}
-else{
-    Console.WriteLine("Here's your ticket, with a change of : " + (cash-5) + " dollars" );
+// if(cash<5){
+//     Console.WriteLine("The Deposit is not enough.");
+// }
+// else if(cash == 5){
+//     Console.WriteLine("Here's Your Ticket!");
+// }
+// else{
+//     Console.WriteLine("Here's your ticket, with a change of : " + (cash-5) + " dollars" );
+// }
+
+
+//Loops
+Console.WriteLine("Hoe many numbers should be displayed?");
+int number = Convert.ToInt32(Console.ReadLine());
+for(int i = 0; i<number; i++){
+    //the increment variable, the condition, and what should happen after each loop
+    double result = Math.Pow(2,i);
+    Console.WriteLine(result);
 }
