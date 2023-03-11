@@ -1,0 +1,15 @@
+/Users/asante/Desktop/cs-tuts/bin/Debug/net7.0/cs-tuts
+/Users/asante/Desktop/cs-tuts/bin/Debug/net7.0/cs-tuts.deps.json
+/Users/asante/Desktop/cs-tuts/bin/Debug/net7.0/cs-tuts.runtimeconfig.json
+/Users/asante/Desktop/cs-tuts/bin/Debug/net7.0/cs-tuts.dll
+/Users/asante/Desktop/cs-tuts/bin/Debug/net7.0/cs-tuts.pdb
+/Users/asante/Desktop/cs-tuts/obj/Debug/net7.0/cs-tuts.csproj.AssemblyReference.cache
+/Users/asante/Desktop/cs-tuts/obj/Debug/net7.0/cs-tuts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asante/Desktop/cs-tuts/obj/Debug/net7.0/cs-tuts.AssemblyInfoInputs.cache
+/Users/asante/Desktop/cs-tuts/obj/Debug/net7.0/cs-tuts.AssemblyInfo.cs
+/Users/asante/Desktop/cs-tuts/obj/Debug/net7.0/cs-tuts.csproj.CoreCompileInputs.cache
+/Users/asante/Desktop/cs-tuts/obj/Debug/net7.0/cs-tuts.dll
+/Users/asante/Desktop/cs-tuts/obj/Debug/net7.0/refint/cs-tuts.dll
+/Users/asante/Desktop/cs-tuts/obj/Debug/net7.0/cs-tuts.pdb
+/Users/asante/Desktop/cs-tuts/obj/Debug/net7.0/cs-tuts.genruntimeconfig.cache
+/Users/asante/Desktop/cs-tuts/obj/Debug/net7.0/ref/cs-tuts.dll
