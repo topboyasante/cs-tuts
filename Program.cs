@@ -1,4 +1,6 @@
-﻿//Console Settings:
+﻿using System.Collections.Generic;
+
+//Console Settings:
 Console.Title = "Area 51";
 Console.ForegroundColor = ConsoleColor.Green;
 
@@ -66,10 +68,60 @@ double number03 ;
 
 
 //Loops
-Console.WriteLine("Hoe many numbers should be displayed?");
-int number = Convert.ToInt32(Console.ReadLine());
-for(int i = 0; i<number; i++){
-    //the increment variable, the condition, and what should happen after each loop
-    double result = Math.Pow(2,i);
-    Console.WriteLine(result);
+
+// For Loops:
+// Console.WriteLine("How many numbers should be displayed?");
+// int number = Convert.ToInt32(Console.ReadLine());
+// for(int i = 0; i<number; i++){
+//     //the increment variable, the condition, and what should happen after each loop
+//     double result = Math.Pow(2,i);
+//     Console.WriteLine(result);
+// }
+
+//While Loops:
+// while(){
+    
+// }
+
+//List and Arrays:
+string[] favoriteGames = {"Uncharted:Lost Legacy", "Ghost of Tsushima", "GTA V"};
+// Console.WriteLine(favoriteGames[1]);
+
+// for (int i = 0; i < favoriteGames.Length; i++)
+// {
+//     int ranking = i + 1;
+//     Console.WriteLine(ranking +". "+favoriteGames[i]);   
+// }
+
+string[] yourFavGames = new string[5];
+
+Console.WriteLine("Type In your Favourite Games:");
+
+for (int i = 0; i < yourFavGames.Length; i++)
+{
+    yourFavGames[i] = Console.ReadLine();
 }
+
+Array.Sort(yourFavGames);
+
+for (int i = 0; i < yourFavGames.Length; i++)
+{
+    Console.WriteLine(yourFavGames[i]);
+}
+
+//Lists: Arrays but we don't have to specify the length:
+List<string> shoppingList = new List<string>();
+
+shoppingList.Add("Dreams");
+shoppingList.Add("Miracles");
+shoppingList.Add("Ponies");
+
+for (int i = 0; i < shoppingList.Count ; i++)
+{
+    Console.WriteLine(shoppingList[i]);
+}
+
+//Remove Items From List
+shoppingList.Remove("Dreams");
+//or
+shoppingList.RemoveAt(2);
